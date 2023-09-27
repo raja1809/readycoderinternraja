@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="func.js"></script>
+  </head>
+    <style>
+    .bg{
+            background-color: #C63BFA;
+        }
+    body{
+    background-color:aliceblue;
+    color: aqua;
+    margin:0;
+    padding: 0;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    align-items: center;
+    width: 100%;
+    background-position: center;
+    background-image: url("");
+    background-repeat: no-repeat;
+}
+
+.box1{
+    margin: 0 44px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.box2{
+    color: black;
+    display: flex;
+    width: 100%;
+    font-size: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("https://images.unsplash.com/photo-1562016600-ece13e8ba570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2F0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+}
+.box3{
+    color: black;
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHN0dWR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+}
+.box4{
+    color: black;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 100px;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.forms > div{
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.forms > div > input{
+    padding: 11px;
+    border-radius: 12px;
+}
+
+.forms > div > p{
+    cursor: pointer;
+    color:blue;
+}
+
+.socials{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: -122px;
+    cursor: pointer;
+}
+
+.logintexts{
+    text-align: center;
+}
+
+.form > div{
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form > div > input{
+    padding: 11px;
+    border-radius: 12px;
+}
+
+.form > div > p{
+    cursor: pointer;
+}
+
+.form > div > button{
+    padding: 6px;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    width: fit-content;
+    border-radius: 9px;
+    margin: auto;
+    border-width: 0.76px;;
+    cursor: pointer;
+}
+
+.form > div > button:active{
+    background-color: rgb(236, 165, 77);
+}
+
+.box2 > button{
+    padding: 12px;
+    color:white;
+    background-color:blue;
+    font-size: 20px;
+    width: fit-content;
+    border-radius: 9px;
+    border-width: 0.76px;;
+    cursor: pointer;
+}
+
+.box2 > button:active{
+    background-color: rgb(236, 165, 77);
+}
+  </style>
+  <body class="bg">
+    <main class="mainbox">
+      <div class="box3"></div>
+      <div class="box4">
+        <div class="Signuptexts">
+          <h1>SIGN UP</h1>
+          <br />
+        </div>
+        <div class="forms">
+          <div>
+            <input type="text" placeholder="Name" /> <br />
+            <input type="text" placeholder="Phone no." /><br />
+            <input type="text" placeholder="Email ID" /><br />
+            <input type="text" placeholder="Password" /><br />
+            <p onclick="login()">Already a customer?</p>
+            <br />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
